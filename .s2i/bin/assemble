@@ -1,0 +1,7 @@
+
+/usr/libexec/s2i
+echo "########## creating index page "
+DATE=$(date +"%Y-%m-%d")
+echo "$DATE Hello Seoudy Gouda" > ./index.html
+
+echo "####### Custom script end ###### "
